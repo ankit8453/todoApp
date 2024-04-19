@@ -1,0 +1,48 @@
+input {
+  width: 100%;
+}
+
+.kg-button {
+  min-width: 80px;
+}
+
+.kg-row {
+  margin: 10px 5px;
+}
+
+.conta {
+  text-align: center;
+  border: 1px solid black;
+  margin: 50px;
+  width: 50%;
+  border-radius: 5px;
+  padding: 15px;
+  min-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 230, 222);
+}
+
+/* Media query for screens smaller than 768px */
+@media (min-width: 681px) and (max-width: 767px) {
+  .conta {
+    width: 80%; /* Adjust width for smaller screens */
+    margin: 20px; /* Adjust margin for smaller screens */
+  }
+}
+
+/* Media query for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .conta {
+    width: 70%; /* Adjust width for medium-sized screens */
+    margin: 30px; /* Adjust margin for medium-sized screens */
+  }
+}
+
+/* Media query for screens less then 680 */
+@media (max-width: 680px) {
+  .conta {
+    width: 100%; /* Adjust width for medium-sized screens */
+    margin: 0px; /* Adjust margin for medium-sized screens */
+  }
+}
