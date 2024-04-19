@@ -11,7 +11,7 @@ To get started with this project, follow these steps:
 ```bash
 
 git clone <https://github.com/ankit8453/todoApp.git>
-
+```
 or Directlity Download Zip..
 
 2. Navigate to project Directory in your system:
@@ -21,13 +21,13 @@ or Directlity Download Zip..
 ```bash
 
 npm install
-
+```
 4.Start the development server:
 
 ```bash
 
 npm run dev
-
+```
 5. Follow the localhost link to use the todoApp Project
 
 
